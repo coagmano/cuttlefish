@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/iffyuva/flatui-rails.git
+  remote: https://github.com/iffyuva/flatui-rails.git
   revision: 3d3c423d6bb58caa5d97d6fe2e3d03235e0d378e
   ref: 3d3c423
   specs:
@@ -198,7 +198,7 @@ GEM
       activemodel (>= 3.2, < 5)
     method_source (0.8.2)
     mime-types (2.6.1)
-    mini_portile2 (2.6.1)
+    mini_portile2 (2.8.0)
     minitest (5.8.0)
     multi_json (1.11.2)
     nenv (0.1.1)
@@ -211,8 +211,8 @@ GEM
       net-ssh (>= 2.6.5)
     netrc (0.10.2)
     newrelic_rpm (3.9.8.273)
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (0.17.1)
@@ -225,7 +225,7 @@ GEM
       slop (~> 3.4)
     pundit (0.3.0)
       activesupport (>= 3.0.0)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (1.5.5)
     rack-livereload (0.3.15)
       rack
